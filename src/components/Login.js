@@ -88,7 +88,7 @@ class Login extends Component {
       </Box>
 	  		<Box pad={{horizontal: 'medium', vertical: 'small'}}>
 	  			<Anchor href='#' label='Sign up' onClick={() => setPopup('signup')}/>
-				<Anchor href='#' label='Password' onClick={() => console.log('signup')}/>
+				<Anchor href='#' label='Forgot Password' onClick={() => console.log('signup')}/>
 	  		</Box>
       	</Layer>
     );
